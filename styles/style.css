@@ -110,7 +110,7 @@
   border: 1px solid var(--button-hover-color);
   cursor: pointer;
 }
-.header__theme-menu-button:focus-visible {
+.header__theme-menu-focus:focus-visible {
   outline: none;
 }
 .header__theme-menu-button:focus-visible {
@@ -173,8 +173,6 @@ p {
   display: grid;
   margin-block-start: 30px;
   margin-inline: 10px;
-}
-.section {
   gap: 20px;
 }
 .section__special-gap {
