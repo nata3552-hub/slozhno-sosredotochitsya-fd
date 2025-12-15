@@ -10,6 +10,9 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  font-family: var(--font-family-main);
+  font-size: var(--accent-size);
+  line-height: var(--line-height);
 }
 
 h1,
@@ -20,6 +23,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-size: var(--accent-size);
 }
 
 ul {
@@ -27,12 +31,10 @@ ul {
   padding: 0;
   list-style: none;
 }
-
 picture {
   margin: 0;
   padding: 0;
 }
-
 button,
 a {
   color: currentColor;
