@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url("/images/cover-image-light.png");
+  --bg-image: url("../images/cover-image-light.png");
   --bg-color: #FFF1F7;
   --section-text-color: #353430;
   --section-title-color: #FF8DCB;
@@ -18,8 +18,9 @@
   --text-title-color: #353430;
   --border-color: #353430;
   --button-hover-color: rgba(50, 49, 45, 0.4);
+  --footer-shadow: #ff0070;
 }
- .theme-light .rec__label {
+.theme-light .rec__label {
   display: none;
 }
 @media (prefers-color-scheme: light) {
@@ -28,17 +29,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url("/images/cover-image-light.png");
-  --bg-color: #FFF1F7;
-  --section-text-color: #353430;
-  --section-title-color: #FF8DCB;
-  --header-title-color: #FFC2E6;
-  --accent-color: #353430;
-  --text-title-color: #353430;
-  --border-color: #353430;
-  --button-hover-color: rgba(50, 49, 45, 0.4);
-}
+    --bg-image: url("../images/cover-image-light.png");
+    --bg-color: #FFF1F7;
+    --section-text-color: #353430;
+    --section-title-color: #FF8DCB;
+    --header-title-color: #FFC2E6;
+    --accent-color: #353430;
+    --text-title-color: #353430;
+    --border-color: #353430;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --footer-shadow: #ff0070;
+  }
  .rec__label {
-  display: none;
-}
+    display: none;
+  }
 }
